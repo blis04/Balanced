@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SQLLiteConnectionTest {
 
     private static final String HOME_DIR = System.getenv("HOME");
-    private static final String DB_URL = String.format("jdbc:sqlite:/Users/%s/sqlite/chinook.db", HOME_DIRg);
+    private static final String DB_URL = String.format("jdbc:sqlite:/Users/%s/sqlite/chinook.db", HOME_DIR);
 
     @Test
     public void testDatabaseConnection() {
